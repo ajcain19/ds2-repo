@@ -31,7 +31,7 @@ const Card = props => {
     }
   }, props.header)), /*#__PURE__*/_react.default.createElement("img", {
     style: cardImg,
-    src: _colors.default,
+    src: props.img,
     alt: "Design System Colors"
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: "card-section"
