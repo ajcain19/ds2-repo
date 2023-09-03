@@ -10,11 +10,14 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 const cardContainer = {
   display: "flex",
   flexDirection: "column",
+  textAlign: "left",
   border: "1px solid #f1f1f1",
   borderRadius: "8px",
   margin: "8px",
   padding: "24px",
-  boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px"
+  boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
+  backgroundColor: "#FFF",
+  color: "#000"
 };
 const cardImg = {};
 const Card = props => {

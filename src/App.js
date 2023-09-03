@@ -30,6 +30,7 @@ function App() {
           <Card
             header="This is a Card"
             feature="I'm a Feature"
+            img="https://www.qed42.com/sites/default/files/styles/featured_image/public/2022-11/Color%20in%20design%20system_0.png?itok=CUevO4U3"
             introduction="This card makes use of the card-divider element."
             url="This is a link"
           />

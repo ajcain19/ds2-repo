@@ -4,11 +4,14 @@ import CardImage from "../images/colors.png";
 const cardContainer = {
   display: "flex",
   flexDirection: "column",
+  textAlign: "left",
   border: "1px solid #f1f1f1",
   borderRadius: "8px",
   margin: "8px",
   padding: "24px",
   boxShadow: "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px",
+  backgroundColor: "#FFF",
+  color: "#000",
 };
 
 const cardImg = {};
@@ -19,7 +22,7 @@ const Card = (props) => {
         <div className="card-divider">
           <h2 style={{ marginTop: "0" }}>{props.header}</h2>
         </div>
-        <img style={cardImg} src={CardImage} alt="Design System Colors" />
+        <img style={cardImg} src={props.img} alt="Design System Colors" />
         <div className="card-section">
           <h3>{props.feature}</h3>
           <p>{props.introduction}</p>
