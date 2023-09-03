@@ -3,12 +3,18 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = void 0;
+Object.defineProperty(exports, "Badge", {
+  enumerable: true,
+  get: function get() {
+    return _Badge.default;
+  }
+});
+Object.defineProperty(exports, "Card", {
+  enumerable: true,
+  get: function get() {
+    return _Card.default;
+  }
+});
 var _Badge = _interopRequireDefault(require("./components/Badge"));
 var _Card = _interopRequireDefault(require("./components/Card"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-var _default = {
-  Badge: _Badge.default,
-  Card: _Card.default
-};
-exports.default = _default;
